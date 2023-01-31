@@ -1,0 +1,5 @@
+// for post request
+curl localhost:8080/books --include --header "Content-Type": application.json -d @body.json --request "POST"
+
+// for get request
+curl localhost:8080/books  
