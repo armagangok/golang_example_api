@@ -6,3 +6,6 @@ curl localhost:8080/books
 
 // get data by id
 curl localhost:8080/books/2
+
+// to checkout data
+curl localhost:8080/checkout\?id=3 --request "PATCH"
